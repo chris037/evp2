@@ -5,4 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/evp/',
   plugins: [react()],
+  host: "0.0.0.0", // ✅ Required for Render to expose the port
+  port: 4173, // Optional: set default port
 })
