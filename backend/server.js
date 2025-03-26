@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 5001;
 
 // ✅ Allow all origins or specify your frontend domain
 app.use(cors({
-  origin: ["https://ibexvst.com/evp"], // ✅ Allow your frontend
+  origin: ["https://ibexvst.com/evp", "https://ibexvst.com/"], // ✅ Allow your frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true,
 }));
