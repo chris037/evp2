@@ -6,6 +6,13 @@ export default defineConfig({
   server: {
     host: '0.0.0.0', // ✅ Required for local dev and Render to expose port
     port: 4173,
+    proxy: {
+      '/api': {
+        target: 'https://evp-xs9f.onrender.com',
+        changeOrigin: true,
+        secure: false,
+      },
+    },
   },
   preview: {
     host: '0.0.0.0',
@@ -13,3 +20,4 @@ export default defineConfig({
     allowedHosts: ['evp-xs9f.onrender.com'], // ✅ Add your Render domain here
   },
 })
+
