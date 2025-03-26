@@ -1,10 +1,11 @@
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
-  host: "localhost",     // or your remote DB host
-  user: "root",          // your MySQL user
-  password: "",          // your MySQL password
-  database: "ibex_db"    // database name (create this first)
+  host: "153.92.15.61",     // or your remote DB host
+  user: "u2134354",          // your MySQL user
+  password: "h!gMMvG&MY5qOq51",          // your MySQL password
+  database: "u213435430_ibexdb"    // database name (create this first)
+
 });
 
 db.connect((err) => {

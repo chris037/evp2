@@ -4,7 +4,7 @@ import axios from "axios"; // ✅ Import Axios
 
 import Swal from "sweetalert2"; // Optional if used for alert
 
-//import "../styles/Dreamwall.css";
+import "../styles/Dreamwall.css";
 
 
 export default function Dreamwall() {
