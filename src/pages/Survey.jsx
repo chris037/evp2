@@ -43,7 +43,7 @@ export default function Survey() {
     return (
         <div className="survey-container">
             <h1 className="heading">
-                <img src="/evp/images/Header-Survey.png" alt="Header Social" />
+                <img src="/images/Header-Survey.png" alt="Header Social" />
             </h1>
 
             <form onSubmit={handleSubmit} className="survey-form">

@@ -1,5 +1,5 @@
 body {
-    background-image: url('/evp/bg.jpg'); /* Background from public folder */
+    background-image: url('/bg.jpg'); /* Background from public folder */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

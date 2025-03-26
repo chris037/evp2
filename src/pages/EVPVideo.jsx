@@ -135,7 +135,7 @@ export default function EVPVideo() {
       </button> */}
 
       <h1 className="heading">
-        <img src="/evp/images/Header-Video.png" alt="Header EVP Video" />
+        <img src="/images/Header-Video.png" alt="Header EVP Video" />
       </h1>
 
 

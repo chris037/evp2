@@ -34,7 +34,7 @@ export default function EVPRead() {
   return (
     <div className="evpread-container">
       <div className="evpread-container-sub">
-        <img src="/evp/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
+        <img src="/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
 
         <h2 className="evp-title">EMPLOYEE VALUE PROPOSITION</h2>
 

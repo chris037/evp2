@@ -16,9 +16,9 @@ export default function Home() {
 
   return (
     <Container>
-      <img src="/evp/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
+      <img src="/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
       <h1 className="heading">
-        <img src="/evp/images/Header-Home.png" alt="Header Home" />
+        <img src="/images/Header-Home.png" alt="Header Home" />
       </h1>
       <p className="description">
         At ibex, your goals are opportunities waiting to be realized. Discover our Employee Value Proposition (EVP) and see how we support your growth and well-being.
@@ -39,7 +39,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('/evp/bg.jpg') no-repeat center center/cover;
+  background: url('/bg.jpg') no-repeat center center/cover;
   padding: 20px;
   text-align: center;
 `;

@@ -5,7 +5,7 @@
     justify-content: center;
     height: 100vh;
     width: 100vw; /* Make sure it doesn't exceed screen width */
-    /* background: url('/evp/bg.jpg') no-repeat center center/cover; */
+    /* background: url('/bg.jpg') no-repeat center center/cover; */
     padding-top: 50px;
     text-align: center;
     overflow-x: hidden;
@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-   /* background: url('/evp/bg.jpg') no-repeat center center/cover;*/
+   /* background: url('/bg.jpg') no-repeat center center/cover;*/
    /* background-color: #000; */
     text-align: center;
     padding: 20px;

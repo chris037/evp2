@@ -12,7 +12,7 @@ export default function CareerQuizLanding() {
     <div className="career-quiz-container">
       {/* ✅ Header Section */}
       <h1 className="heading">
-        <img src="/evp/images/Header-Career.png" alt="Header EVP Video" />
+        <img src="/images/Header-Career.png" alt="Header EVP Video" />
       </h1>
       <h2 className="career-quiz-title">
         The Chronicles of ibex: Your Journey to the True Path
@@ -28,7 +28,7 @@ export default function CareerQuizLanding() {
 
       {/* ✅ Hero Image */}
       <img 
-        src="/evp/images/ibex-journey.png" 
+        src="/images/ibex-journey.png" 
         alt="The Chronicles of Ibex" 
         className="career-quiz-image" 
       />

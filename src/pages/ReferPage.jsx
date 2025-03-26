@@ -49,7 +49,7 @@ export default function ReferPage() {
     
     <div className="refer-container">
       <h1 className="heading">
-        <img src="/evp/images/Header-Refer.png" alt="Header EVP Video" />
+        <img src="/images/Header-Refer.png" alt="Header EVP Video" />
       </h1>
       {/* <h2>Refer Applicants</h2> */}
 

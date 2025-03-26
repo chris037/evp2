@@ -115,16 +115,16 @@ export default function Register() {
         <div className="register-container">
 
             {/* Header Section */}
-            <img src="/evp/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
+            <img src="/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
             <div className="register-header">
 
-                <h1 className="register-title"> <img src="/evp/images/Header-Register.png" alt="Header Register" /></h1>
+                <h1 className="register-title"> <img src="/images/Header-Register.png" alt="Header Register" /></h1>
                 <div className="torn-paper"></div>
             </div>
 
             {/* Registration Form */}
             <form className="register-form" onSubmit={handleSubmit}>
-                <h2 className="register-title"><img src="/evp/images/HeaderSub-Register.png" alt="Header Register" /></h2>
+                <h2 className="register-title"><img src="/images/HeaderSub-Register.png" alt="Header Register" /></h2>
 
                 <label>Name</label>
                 <input type="text" name="name" placeholder="Enter your name" onChange={handleChange} required />

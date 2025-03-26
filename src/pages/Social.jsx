@@ -40,7 +40,7 @@ export default function Social() {
     return (
         <div className="social-container">
             <h1 className="heading">
-                <img src="/evp/images/Header-Social.png" alt="Header Social" />
+                <img src="/images/Header-Social.png" alt="Header Social" />
             </h1>
             {/* <h2>#SpottedWithDot Challenge</h2> */}
             <p>

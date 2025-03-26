@@ -55,7 +55,7 @@ export default function Dreamwall() {
     <div className="dreamwall-container">
       {/* ✅ Upload Section */}
       <h1 className="heading">
-        <img src="/evp/images/Header-Dreamwall.png" alt="Header EVP Video" />
+        <img src="/images/Header-Dreamwall.png" alt="Header EVP Video" />
       </h1>
      
       <div className="upload-section">

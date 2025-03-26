@@ -6,8 +6,8 @@ import "../styles/GlobalStyles.css";
 export default function Home() {
     return (
       <div className="container">
-        <img src="/evp/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
-        <h1 className="heading"> <img src="/evp/images/Header-Home.png" alt="Header Home" /></h1>
+        <img src="/images/ibex-logo.png" alt="Ibex Logo" className="logo" />
+        <h1 className="heading"> <img src="/images/Header-Home.png" alt="Header Home" /></h1>
         <p className="description">
           At ibex, your goals are opportunities waiting to be realized. Discover our Employee Value Proposition (EVP) and see how we support your growth and well-being.
         </p>

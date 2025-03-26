@@ -5,7 +5,7 @@ import "../styles/CareerQuiz.css";
 const quizData = [
   {
     id: 1,
-    heroImage: "/evp/images/survey/1.webp",
+    heroImage: "/images/survey/1.webp",
     hero: "The Whispering Forest: Guiding the Lost",
     question: "You begin your journey in the Whispering Forest, where you stumble upon a group of lost travelers. They are confused and looking for direction. What do you do?",
     options: [
@@ -19,7 +19,7 @@ const quizData = [
   },
   {
     id: 2,
-    heroImage: "/evp/images/survey/2.webp",
+    heroImage: "/images/survey/2.webp",
     hero: "The River of Time: Repairing the Bridge",
     question: "While traveling along the River of Time, you encounter a bridge that’s fallen into disrepair. What’s your approach to fixing it?",
     options: [
@@ -33,7 +33,7 @@ const quizData = [
   },
   {
     id: 3,
-    heroImage: "/evp/images/survey/3.webp",
+    heroImage: "/images/survey/3.webp",
     hero: "The Fields of Creation: Preparing for the Festival",
     question: "Upon reaching the Fields of Creation, you’re asked to help a local town with a festival to celebrate the kingdom. What’s your contribution?",
     options: [
@@ -47,7 +47,7 @@ const quizData = [
   },
   {
     id: 4,
-    heroImage: "/evp/images/survey/4.webp",
+    heroImage: "/images/survey/4.webp",
     hero: "The Caverns of Wisdom: Guiding Adventurers",
     question: "As you journey deeper into the kingdom, you come to the Caverns of Wisdom, where adventurers from all over come to learn. How do you help them?",
     options: [
@@ -61,7 +61,7 @@ const quizData = [
   },
   {
     id: 5,
-    heroImage: "/evp/images/survey/5.webp",
+    heroImage: "/images/survey/5.webp",
     hero: "The Vault of Destiny: Protecting the Kingdom’s Treasure",
     question: "You reach the Vault of Destiny, where the kingdom’s most valuable resources are kept safe. What role do you play in protecting the vault?",
     options: [
@@ -75,7 +75,7 @@ const quizData = [
   },
   {
     id: 6,
-    heroImage: "/evp/images/survey/6.webp",
+    heroImage: "/images/survey/6.webp",
     hero: "The Council of the Realm: Choosing a New Hero",
     question: "The Council of the Realm seeks your help to choose a new hero for the kingdom. How do you contribute to the selection process?",
     options: [
@@ -89,7 +89,7 @@ const quizData = [
   },
   {
     id: 7,
-    heroImage: "/evp/images/survey/7.webp",
+    heroImage: "/images/survey/7.webp",
     hero: "The Meadows of Harmony: Resolving a Dispute",
     question: "While traveling through the Meadows of Harmony, you encounter a dispute between two villages. How do you resolve the conflict?",
     options: [
@@ -103,7 +103,7 @@ const quizData = [
   },
   {
     id: 8,
-    heroImage: "/evp/images/survey/8.webp",
+    heroImage: "/images/survey/8.webp",
     hero: "The Castle of Triumph: Facing a Kingdom-Wide Crisis",
     question: "As you reach the Castle of Triumph, the kingdom faces a looming crisis, and you are called upon to help. What’s your immediate response?",
     options: [
@@ -117,7 +117,7 @@ const quizData = [
   },
   {
     id: 9,
-    heroImage: "/evp/images/survey/9.webp",
+    heroImage: "/images/survey/9.webp",
     hero: "The Grove of Reflection: Discovering Your Truth",
     question: "The Grove of Reflection awaits at the end of your journey, where you must look inward to discover what drives you most. What truth do you find within yourself?",
     options: [
@@ -136,43 +136,43 @@ const results = {
     title: "Operations <br/> (The Leader’s Path)",
     description:
       "You are a natural leader, always looking to guide teams and ensure success. Operations is your domain, where you can take charge and drive results for the kingdom.",
-    //image: "/evp/images/results/operations.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/operations.webp",
+    image: "/images/survey/result.jpg",
   },
   b: {
     title: "Quality Assurance / Security / Compliance <br/> (The Analyst’s Path)",
     description:
       "You are meticulous and detail-oriented, always seeking to improve systems or ensure compliance. You belong in Quality Assurance or Security, protecting the kingdom with your sharp eye for detail.",
-    //image: "/evp/images/results/quality.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/quality.webp",
+    image: "/images/survey/result.jpg",
   },
   c: {
     title: "Marketing / Creatives <br/> (The Visionary’s Path)",
     description:
       "You are driven by creativity and the desire to inspire others. Your imagination will shine in Marketing or Creative roles, where you bring ideas to life for the kingdom.",
-    //image: "/evp/images/results/marketing.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/marketing.webp",
+    image: "/images/survey/result.jpg",
   },
   d: {
     title: "Workforce Management / Finance / HR <br/> (The Strategist’s Path)",
     description:
       "You excel at balancing resources, planning, and ensuring smooth operations. Workforce Management, Finance, or HR is where you’ll thrive, using your strategic mindset to keep the kingdom running smoothly.",
-    //image: "/evp/images/results/finance.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/finance.webp",
+    image: "/images/survey/result.jpg",
   },
   e: {
     title: "Recruitment <br/> (The Seeker’s Path)",
     description:
       "You have a keen eye for talent and love helping people find roles where they can excel. The Seeker’s Path is your calling, where you’ll match the kingdom’s people with its greatest needs.",
-    //image: "/evp/images/results/recruitment.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/recruitment.webp",
+    image: "/images/survey/result.jpg",
   },
   f: {
     title: "Training <br/> (The Mentor’s Path)",
     description:
       "You are a patient and insightful mentor, always ready to teach and guide others. The Mentor’s Path leads you to Training, where you will empower the kingdom’s future adventurers by sharing your wisdom.",
-    //image: "/evp/images/results/training.webp",
-    image: "/evp/images/survey/result.jpg",
+    //image: "/images/results/training.webp",
+    image: "/images/survey/result.jpg",
   },
 };
 
@@ -207,7 +207,7 @@ export default function CareerQuiz() {
     setResult({
       title: resultData.title || "Unknown Path",
       description: resultData.description || "Your adventure is unique. Keep exploring!",
-      image: resultData.image || "/evp/images/survey/result.jpg", // ✅ Default image fallback
+      image: resultData.image || "/images/survey/result.jpg", // ✅ Default image fallback
     });
 
     setShowResult(true);

@@ -95,7 +95,7 @@ export default function Dreamwall() {
   return (
     <div className="dreamwall-container py-4">
       <h1 className="text-center mb-4">
-        <img src="/evp/images/Header-Dreamwall.png" alt="Dreamwall Header" className="img-fluid" />
+        <img src="/images/Header-Dreamwall.png" alt="Dreamwall Header" className="img-fluid" />
       </h1>
 
       {/* Upload Form */}
