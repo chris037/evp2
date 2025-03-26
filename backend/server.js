@@ -15,6 +15,7 @@ const PORT = process.env.PORT || 5001;
 app.use(cors({
   origin: ["https://evp-xs9f.onrender.com", "https://ibexvst.com", "http://localhost:4173", "http://10.210.123.172:4173"], // ✅ Allow your frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
+  headers: ["Content-Type"],
   credentials: true,
 }));
 
