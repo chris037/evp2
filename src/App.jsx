@@ -18,7 +18,7 @@ import Survey from "./pages/Survey"; // ✅ Import Survey Page
 
 function App() {
   return (
-    <Router basename="/evp">
+    <Router>
       <GlobalStyle />
       <BackButton /> {/* Add Back Button globally */}
       <Routes>
