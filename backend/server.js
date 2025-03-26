@@ -23,8 +23,9 @@ app.use(cors());
 const cors = require("cors");
 
 
+
 // ✅ Middleware
-app.use(cors());
+
 app.use(bodyParser.json());
 app.use(express.json());
 
@@ -41,3 +42,7 @@ app.listen(PORT, () => {
   console.log(`🚀 Server running at http://localhost:${PORT}`);
 });
 
+
+app.get("/test-cors", (req, res) => {
+  res.json({ message: "CORS is working!" });
+});
