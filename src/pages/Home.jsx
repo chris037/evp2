@@ -39,7 +39,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: url('/bg.jpg') no-repeat center center/cover;
+  background: url('/evp/bg.jpg') no-repeat center center/cover;
   padding: 20px;
   text-align: center;
 `;
