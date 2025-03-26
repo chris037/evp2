@@ -45,7 +45,7 @@ export default function EVPVideo() {
 
     if (!alreadySaved) {
       try {
-        await axios.post("http://localhost:5001/api/tasks/complete", {
+        await axios.post("https://evp-xs9f.onrender.com/api/tasks/complete", {
           userId,
           taskName: "Watch the EVP video"
         });

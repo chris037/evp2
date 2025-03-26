@@ -25,7 +25,7 @@ export default function Dreamwall() {
 
   const fetchEntries = async () => {
     try {
-      const response = await axios.get("http://localhost:5001/api/dreamwall/entries");
+      const response = await axios.get("https://evp-xs9f.onrender.com/api/dreamwall/entries");
       setEntries(response.data);
     } catch (error) {
       console.error("Error loading entries", error);
@@ -54,7 +54,7 @@ export default function Dreamwall() {
 
     try {
       // ✅ Submit Dreamwall entry
-      await axios.post("http://localhost:5001/api/dreamwall/submit", formData);
+      await axios.post("https://evp-xs9f.onrender.com/api/dreamwall/submit", formData);
 
       // ✅ Show SweetAlert
       await Swal.fire({
@@ -69,7 +69,7 @@ export default function Dreamwall() {
       // ✅ Hide the form
       //setHasSubmitted(true);
       // ✅ Mark task as completed (pending approval is handled on backend)
-      await axios.post("http://localhost:5001/api/tasks/complete", {
+      await axios.post("https://evp-xs9f.onrender.com/api/tasks/complete", {
         userId,
         taskName: "Dreamwall / Aspirational Wall"
       });
@@ -149,7 +149,7 @@ export default function Dreamwall() {
             <div className="col-12" key={entry.id}>
               <div className="card text-white bg-dark">
                 <img
-                  src={`http://localhost:5001/uploads/${entry.photo}`}
+                  src={`https://evp-xs9f.onrender.com/uploads/${entry.photo}`}
                   alt={entry.title}
                   className="card-img-top"
                 />

@@ -41,7 +41,7 @@ export default function Tasks() {
   useEffect(() => {
     const userId = sessionStorage.getItem("userId");
 
-    axios.get(`http://localhost:5001/api/tasks/${userId}`)
+    axios.get(`https://evp-xs9f.onrender.com/api/tasks/${userId}`)
       .then(res => {
         setCompletedTasks(res.data); // or update your local state
       });
@@ -57,7 +57,7 @@ export default function Tasks() {
   const markTaskAsCompleted = async (taskName) => {
     const userId = sessionStorage.getItem("userId");
     try {
-      await axios.post("http://localhost:5001/api/tasks/complete", {
+      await axios.post("https://evp-xs9f.onrender.com/api/tasks/complete", {
         userId,
         taskName
       });

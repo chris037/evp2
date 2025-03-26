@@ -76,7 +76,7 @@ export default function Register() {
         e.preventDefault();
       
         try {
-          const response = await axios.post("http://localhost:5001/api/users/register", formData);
+          const response = await axios.post("https://evp-xs9f.onrender.com/api/users/register", formData);
       
           // Save user data
           sessionStorage.setItem("userName", formData.name);
