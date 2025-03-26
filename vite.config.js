@@ -1,10 +1,16 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   base: '/evp/',
   plugins: [react()],
-  host: "0.0.0.0", // ✅ Required for Render to expose the port
-  port: 4173, // Optional: set default port
+  server: {
+    host: '0.0.0.0', // ✅ Required for local dev and Render to expose port
+    port: 4173,
+  },
+  preview: {
+    host: '0.0.0.0',
+    port: 4173,
+    allowedHosts: ['evp-xs9f.onrender.com'], // ✅ Add your Render domain here
+  },
 })
