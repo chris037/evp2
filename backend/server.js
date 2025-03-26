@@ -12,17 +12,19 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 //✅ Allow all origins or specify your frontend domain
+app.use(cors({
+  origin: ["https://evp-xs9f.onrender.com", "https://ibexvst.com", "http://localhost:4173", "http://10.210.123.172:4173"], // ✅ Allow your frontend
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true,
+}));
+
 // app.use(cors({
-//   origin: ["https://evp-xs9f.onrender.com", "https://ibexvst.com", "http://localhost:4173", "http://10.210.123.172:4173"], // ✅ Allow your frontend
+//   origin: ["*"], // ✅ Allow your frontend
 //   methods: ["GET", "POST", "PUT", "DELETE"],
-//   credentials: true,
+//   credentials: false,
 // }));
 
-app.use(cors({
-  origin: ["*"], // ✅ Allow your frontend
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: false,
-}));
+app.options('*', cors())
 // ✅ Middleware
 
 app.use(bodyParser.json());
